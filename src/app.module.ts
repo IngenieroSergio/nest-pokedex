@@ -22,7 +22,7 @@ import { JoiValidationSchema } from './config/joi.validation';
     }),
     
     MongooseModule.forRoot( process.env.MONGODB || 'mongodb://localhost:27017/miBaseDeDatos', {
-      dbName: 'nest-Pokemon',
+      dbName: 'nest-pokemon',
     }),
 
     PokemonModule,
